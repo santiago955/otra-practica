@@ -1,0 +1,120 @@
+
+.cuad1 th{
+	border: solid 1px black;
+	background: red;
+
+}
+.cuad1 td{
+	border: solid 1px black;
+	padding: 3px;
+	
+}
+.cuad1 tr:hover{
+	background-color: #ccc;
+ } 
+.cuad1 th{
+  background-color: #008B8B;
+  color: white;
+}
+.cuad1 table{
+	margin: 30px auto;
+	padding: 12px auto;
+	border: solid 1px black;
+	border-collapse: collapse;
+	
+}
+
+.cuad1{
+	float: center;
+	padding: 5px auto;
+	margin: 5px auto;
+}
+
+
+
+
+
+
+.cuad2{
+	
+	padding: 0.1px ;
+	margin: 0px;
+}
+.cuad2 th{
+	border: solid 1px black;
+
+}
+.cuad2 td{
+	border: solid 1px black;
+	padding: 4px;
+	
+}
+.cuad2 tr:hover{
+	background: #ccc;
+ }
+ .cuad2 th{
+  background-color: #008B8B;
+  color: white;
+}
+.cuad2 table{
+	border: solid 1px black;
+	border-collapse: collapse;
+	overflow-x: auto;
+	display: flex;
+	overflow-y: auto;
+	
+}
+
+
+
+
+
+
+.cuad th{
+	font-size: 12px;
+	
+
+}
+
+.cuad td{
+	font-size: 12px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+
+}
+input{
+	display: block;
+	width: 80%
+}
+
+select{
+	display: block;
+	width: 80%
+}
+
+
+.cuad table{
+	width: 100%;
+	float: center;
+	overflow-x: auto;
+	display: flex;
+	overflow-y: auto;
+}
+
+.cuad{
+	width: 25%;
+
+	float: center;
+}
+
+input[type=submit]{
+	margin-bottom: 0px;
+	background: #008B8B;
+	color: white;
+	border:none;
+	padding: 10px;
+	height:30px;
+	margin: 10px auto;
+	text-shadow: #fff;
+	border-radius: 5px 0px 5px 0px;
+}

@@ -1,0 +1,378 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+
+#contendor{
+	width: 100%;
+	height: 100%;
+	max-height: 1500px;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	box-shadow: 0px 1px 10px #000;
+}
+
+
+#header{
+	height: 3%;
+	background: #0a0d50;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+#nav{
+	height: 18%;
+	background: #fff;
+}
+
+#contenido{
+    width: 100%;
+    height: 20%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#section1{
+	width: 100%;
+	height: 15%;
+	background: #fff;
+}
+
+#section2{
+	width: 75%;
+	height: 5%;
+	background: #0a0d50;
+	padding: 1em;
+	margin: 0em auto;
+  
+}
+
+#footer{
+	height: 15%;
+	
+}
+
+
+#section2 ul li{
+	display: inline-block;
+	margin: 2px;
+	color: white;
+	padding: 8px 12px;
+	transition: 3px;
+}
+.botton a{
+	text-decoration: none;
+	color: #fff;
+	text-align: right;
+	float: right;
+}
+.articulo{
+	vertical-align: top;
+	width: 25%;
+	padding: 10px 10px 10px 20px;
+	margin: 10px 10px 10px 20px;
+	display: inline-block;
+}
+
+#somos{
+	background: #fff;
+	height: 29%;
+}
+
+.articulo-section{
+	vertical-align: top;
+	width: 50%;
+	display: inline-block;
+}
+
+#section3{
+	width: 55%;
+	height: 22.5%;
+	background: #fff;
+	margin: 1em auto;
+	float: left;
+}
+
+#section4{
+	width: 55%;
+	height: 22.5%;
+	background: #fff;
+	float: right;
+}
+
+#section5{
+	width: 55%;
+	height: 22.5%;
+	background: #fff;
+	float: left; 
+}
+
+#section6{
+	width: 55%;
+	height: 22.5%;
+	background: #fff;
+	float: right;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(273,91%,27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h3{
+	float: right;
+}
+
+#section3 img{
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border-radius: 50%; 
+	margin: 1em;
+}
+
+#section3 p{
+	color: #000;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 30px;
+	margin-top: 30px;
+	font-family: comic sans;
+}
+.button5{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 46px;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    font: italic normal bold 19px comic sans ms;
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+ 	float: right;
+}
+
+#section4 img{
+	width: 250px;
+	height: 250px;
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border-radius: 50%; 
+	margin: 1em;
+}
+
+#section4 p{
+	color: #000;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 50;
+	margin-top: 80px;
+	font-family: comic sans;
+
+
+
+}
+.button5{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 46px;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    font: italic normal bold 19px comic sans ms;
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+ 	float: right;
+}
+
+
+#section5 img{
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	margin: 1em; 
+}
+
+#section5 p{
+	color: #000;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 50;
+	margin-top: 30px;
+	font-family: comic sans;
+
+
+}
+.button5{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 46px;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    font: italic normal bold 19px comic sans ms;
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+ 	float: right;
+}
+
+
+#section6 img{
+	width: 250px;
+	height: 250px;
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border-radius: 50%; 
+	margin: 1em;
+}
+
+#section6 p{
+	color: #000;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 50;
+	margin-top: 40px;
+	font-family: comic sans;
+}
+.button5{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 46px;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    font: italic normal bold 19px comic sans ms;
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+ 	float: right;
+}
+
+
+#casi{
+	height: 10%;
+	
+}
+
+#yacasi{
+	height: 2%;
+	background: #fff;
+}
+#llege{
+	height: 8%;
+	background: #0a0d50; 
+}
+
+.pie1{
+	vertical-align: top;
+	width: 25%;
+	height: 90%;
+	padding: 10px 10px 10px 20px;
+	margin: 10px 10px 10px 20px;
+	display: inline-block;
+	float: left;
+}
+.pie2{
+	vertical-align: top;
+	width: 35%;
+	padding: 10px 10px 10px 20px;
+	margin: 10px 10px 10px 20px;
+	display: inline-block;
+	height: 90%;
+	float: left;
+}
+
+.pie3{
+	vertical-align: top;
+	width: 25%;
+	padding: 10px 10px 10px 20px;
+	margin: 10px 10px 10px 20px;
+	display: inline-block;
+	height: 90%;
+	float: left;
+}
+
+
+.pie1 li{
+	color: #fff;
+}
+.pie1 h2{
+	color: #fff;
+	height: 10px;
+}
+.pie2 li{
+	color: #fff;
+}
+
+.pie3 li{
+	color: #fff;
+}
+
+.pie2 p{
+	color: #fff;
+}
+
+.icon-laptop{
+	font-size: 58px;
+	color: white;
+}
+.icon-facebook2{
+	font-size: 18px;
+	color: white;
+}
+
+.icon-instagram{
+	font-size: 18px;
+	color: white;
+}
+
+.icon-google2{
+	font-size: 18px;
+	color: white;
+}
+
+.icon-twitter{
+	font-size: 18px;
+	color: white;
+}
+
